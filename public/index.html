@@ -31,6 +31,11 @@
             console.log('Escuchando: ', payload);
         })
 
+        // Recibe mensaje desde app de Flutter
+        socket.on('nuevo-mensaje', (payload)=>{
+            console.log('Escuchando: ', payload);
+        })
+
 
     </script>
 </body>
